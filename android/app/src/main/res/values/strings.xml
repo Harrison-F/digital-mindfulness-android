@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Digital Mindfulness</string>
+    <string name="accessibility_service_description">Counts visits to selected websites by local calendar day in supported browsers. Data stays local until sync is added.</string>
+</resources>

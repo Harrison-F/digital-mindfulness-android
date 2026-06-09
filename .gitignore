@@ -1,0 +1,17 @@
+# Android/Gradle build outputs
+.gradle/
+build/
+**/build/
+
+# Local machine/config
+local.properties
+*.keystore
+*.jks
+
+# OS/editor
+.DS_Store
+.idea/
+*.iml
+
+# Packaged release artifacts live on GitHub Releases, not in git
+dist/
