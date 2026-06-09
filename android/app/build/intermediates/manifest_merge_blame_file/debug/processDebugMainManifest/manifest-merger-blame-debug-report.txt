@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.freedomtech.accountability"
+4    android:versionCode="1"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:2:5-77
+11-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:2:22-74
+12
+13    <application
+13-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:4:5-30:19
+14        android:allowBackup="false"
+14-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:5:9-36
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:label="@string/app_name"
+17-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:6:9-41
+18        android:supportsRtl="true"
+18-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:7:9-35
+19        android:theme="@style/AppTheme" >
+19-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:8:9-40
+20        <activity
+20-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:10:9-17:20
+21            android:name="org.freedomtech.accountability.MainActivity"
+21-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:11:13-41
+22            android:exported="true" >
+22-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:12:13-36
+23            <intent-filter>
+23-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:13:13-16:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:14:17-69
+24-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:14:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:15:17-77
+26-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:15:27-74
+27            </intent-filter>
+28        </activity>
+29
+30        <service
+30-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:19:9-29:19
+31            android:name="org.freedomtech.accountability.MonitorAccessibilityService"
+31-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:20:13-56
+32            android:exported="true"
+32-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:21:13-36
+33            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+33-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:22:13-79
+34            <intent-filter>
+34-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:23:13-25:29
+35                <action android:name="android.accessibilityservice.AccessibilityService" />
+35-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:24:17-92
+35-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:24:25-89
+36            </intent-filter>
+37
+38            <meta-data
+38-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:26:13-28:72
+39                android:name="android.accessibilityservice"
+39-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:27:17-60
+40                android:resource="@xml/accessibility_service_config" />
+40-->/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/AndroidManifest.xml:28:17-69
+41        </service>
+42    </application>
+43
+44</manifest>

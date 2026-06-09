@@ -1,0 +1,4 @@
+org.freedomtech.accountability:xml/accessibility_service_config = 0x7f030000
+org.freedomtech.accountability:style/AppTheme = 0x7f020000
+org.freedomtech.accountability:string/app_name = 0x7f010001
+org.freedomtech.accountability:string/accessibility_service_description = 0x7f010000

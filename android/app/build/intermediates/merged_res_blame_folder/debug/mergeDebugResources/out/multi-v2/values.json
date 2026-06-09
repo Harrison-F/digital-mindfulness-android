@@ -1,0 +1,83 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.freedomtech.accountability.app-mergeDebugResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "292",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "498"
+                    }
+                },
+                {
+                    "source": "/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,1",
+                        "startColumns": "4,4",
+                        "startOffsets": "73,16",
+                        "endColumns": "179,56",
+                        "endOffsets": "248,68"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,235",
+                        "endColumns": "179,56",
+                        "endOffsets": "230,287"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/harrison/.gradle/daemon/9.5.1/org.freedomtech.accountability.app-mergeDebugResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "258",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "464"
+                    }
+                },
+                {
+                    "source": "/Users/harrison/Hermes-Folder/Projects/digital-accountability-monitor/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,1",
+                        "startColumns": "4,4",
+                        "startOffsets": "76,16",
+                        "endColumns": "142,59",
+                        "endOffsets": "214,71"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,198",
+                        "endColumns": "142,59",
+                        "endOffsets": "193,253"
+                    }
+                }
+            ]
+        }
+    ]
+}
