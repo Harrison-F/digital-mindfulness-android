@@ -51,7 +51,10 @@ class MonitorAccessibilityService : AccessibilityService() {
     private fun persistIncrement(increment: VisitIncrement) {
         val prefs = getSharedPreferences("visit-counts", Context.MODE_PRIVATE)
         val key = "${increment.day}:${increment.domain}"
-        prefs.edit().putInt(key, prefs.getInt(key, 0) + increment.count).apply()
+        prefs.edit()
+            .putInt(key, prefs.getInt(key, 0) + increment.count)
+            .putLong("last_visit_at", System.currentTimeMillis())
+            .apply()
     }
 
     private fun readDayTotals(day: String): Map<String, Int> {
